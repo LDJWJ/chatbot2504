@@ -1,6 +1,10 @@
 import streamlit as st
 from openai import OpenAI
 
+# Show an image at the top
+st.image("https://raw.githubusercontent.com/LDJWJ/chatbot2504/refs/heads/main/image01.jpg", use_column_width=True)
+
+
 # Show title and description.
 st.title("✍️ 창작 지원 챗봇")
 st.write(
